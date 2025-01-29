@@ -28,7 +28,7 @@ export const Board: FC = () => {
                             width={900}
                             height={506}
                             alt="Board Image"
-                            className="object-contain w-full h-full"
+                            className="object-contain w-full h-full translate-y-6"
                         />
                         
                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-4 px-6 py-4 w-[80%]">
