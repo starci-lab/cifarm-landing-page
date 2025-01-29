@@ -3,4 +3,4 @@ export const headerConstants = {
         title: "Cifarm Landing Page",
         description: "Cifarm Landing Page",
     },
-};
+}

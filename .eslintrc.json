@@ -1,3 +1,15 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+      "react/display-name": "off",
+      "indent": ["error", 4],
+      "react-hooks/exhaustive-deps": "off",
+      "linebreak-style": "off",
+      "quotes": ["error", "double"],
+      "semi": ["error", "never"]
+  }
 }
