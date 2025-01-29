@@ -4,12 +4,15 @@ import { Hero } from "./Hero"
 import { Navbar } from "./Navbar"
 import { Gameplay } from "./Gameplay"
 import { Roadmap } from "./Roadmap"
+import { ScrollProgressBar } from "@/components"
 
 const Page: FC = () => {
     return (
         <Fragment>
-            <header className="w-full">
+             <ScrollProgressBar />
+            <header className="w-full relative">
                 <Navbar />
+                
             </header>
             <main className="w-full">
                 <Hero />
@@ -20,6 +23,7 @@ const Page: FC = () => {
             <footer className="bg-yellow">
                 Footer
             </footer>
+            
         </Fragment>
     )
 }
