@@ -1,7 +1,7 @@
 import { FC, Fragment } from "react"
+import { About } from "./About"
 import { Hero } from "./Hero"
 import { Navbar } from "./Navbar"
-import { Title, TitleVariant } from "@/components/Title"
 
 const Page: FC = () => {
     return (
@@ -11,10 +11,7 @@ const Page: FC = () => {
             </header>
             <main className="w-full">
                 <Hero />
-
-                <Title variant={TitleVariant.Yellow} text="Main Content" />
-
-    
+                <About />
             </main>
             <footer className="bg-yellow">
                 Footer

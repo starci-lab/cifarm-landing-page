@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 export const PlayButton: FC = () => {
     return (
         <motion.div
-            className="relative cursor-pointer w-[400px] h-[120px]"
+            className="relative cursor-pointer w-[200px] md:w-[300px] lg:w-[400px] h-[120px]"
             initial={{ scale: 1 }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -25,7 +25,7 @@ export const PlayButton: FC = () => {
                 {/* Chữ "Play now" nằm chính giữa */}
                 <motion.span
                     className="absolute transform -translate-x-1/2 -translate-y-1/2 
-                        font-dinosaur text-4xl text-white font-bold whitespace-nowrap 
+                        font-dinosaur text-xl md:text-3xl lg:text-4xl text-white font-bold whitespace-nowrap 
                         text-stroke-brown text-stroke-[2px]"
                     initial={{ y: 0 }}
                     animate={{ y: [0, 0, 0] }}

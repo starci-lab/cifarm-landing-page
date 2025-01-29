@@ -1,21 +1,11 @@
 "use client"
 
-import { FC, useState } from "react"
-import { Logo } from "../Hero/Logo"
-import { motion, AnimatePresence } from "framer-motion"
+import { navItems } from "@/constants"
+import { AnimatePresence, motion } from "framer-motion"
 import { Menu, X } from "lucide-react"
+import { FC, useState } from "react"
+import { Logo } from "@/components"
 
-interface NavItem {
-    text: string
-    href: string
-}
-
-const navItems: Array<NavItem> = [
-    { text: "Home", href: "#home" },
-    { text: "About", href: "#about" },
-    { text: "Items", href: "#items" },
-    { text: "Roadmap", href: "#roadmap" },
-]
 
 export const Navbar: FC = () => {
     const [isOpen, setIsOpen] = useState(false)

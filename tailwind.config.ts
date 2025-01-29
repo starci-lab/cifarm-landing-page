@@ -13,6 +13,9 @@ const config: Config = {
                 foreground: "var(--foreground)",
                 brown: "#553320",
                 yellow: "#EFE0A2",
+                purple: "#5C30B3",
+                blue: "#224085",
+                orange: "#B92128",
             },
             fontFamily: {
                 misans: ["var(--font-mi-sans)"],
