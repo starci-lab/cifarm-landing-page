@@ -11,7 +11,7 @@ export const miSans = localFont({
         {
             path: "./MiSans-Latin-Demibold.woff2",
             weight: "400",
-            style: "demibold",
+            style: "normal",
         },
         {
             path: "./MiSans-Latin-Bold.woff2",

@@ -1,5 +1,5 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss"
-
 const config: Config = {
     content: [
         "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,6 +11,8 @@ const config: Config = {
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
+                brown: "#553320",
+                yellow: "#EFE0A2",
             },
             fontFamily: {
                 misans: ["var(--font-mi-sans)"],
@@ -18,6 +20,9 @@ const config: Config = {
             },
         },
     },
-    plugins: [],
+    plugins: [
+        require("@tailwindcss/postcss"),
+        require("@designbycode/tailwindcss-text-stroke"),
+    ],
 }
 export default config
