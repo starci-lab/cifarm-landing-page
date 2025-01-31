@@ -1,7 +1,7 @@
-"use client";
+"use client"
 
-import Image from "next/image";
-import { FC } from "react";
+import Image from "next/image"
+import { FC } from "react"
 
 export const Board: FC = () => {
     return (
@@ -32,7 +32,7 @@ export const Board: FC = () => {
                         />
                         
                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-4 px-6 py-4 w-[80%]">
-                        <span className="font-misans text-black font-bold text-yellow-600 text-[16px] sm:text-xl md:text-2xl">Cifarm: Farm-to-earn on Telegram! <br /></span>
+                            <span className="font-misans text-black font-bold text-yellow-600 text-[16px] sm:text-xl md:text-2xl">Cifarm: Farm-to-earn on Telegram! <br /></span>
                             <p className="font-misans text-black font-bold text-[14px] sm:text-lg md:text-xl leading-relaxed">
                                 - Step into the first <span className="text-green-600">multichain farming game</span> on Telegram,
                                 powered by <span className="text-blue-600">Ciwallet</span> and <span className="text-purple-600">Wormhole</span>.
@@ -44,5 +44,5 @@ export const Board: FC = () => {
 
             </div>
         </div>
-    );
-};
+    )
+}
