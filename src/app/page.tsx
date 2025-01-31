@@ -1,4 +1,6 @@
-import { FC, Fragment } from "react"
+"use client"
+
+import { FC } from "react"
 import { About } from "./About"
 import { Hero } from "./Hero"
 import { Navbar } from "./Navbar"
@@ -8,11 +10,10 @@ import { ScrollProgressBar } from "@/components"
 
 const Page: FC = () => {
     return (
-        <Fragment>
+        <>
             <ScrollProgressBar />
-            <header className="w-full relative">
+            <header className="w-full fixed top-0 z-50">
                 <Navbar />
-                
             </header>
             <main className="w-full">
                 <Hero />
@@ -20,11 +21,10 @@ const Page: FC = () => {
                 <Gameplay />
                 <Roadmap />
             </main>
-            <footer className="bg-yellow">
+            <footer className="bg-yellow h-screen flex items-center justify-center">
                 Footer
             </footer>
-            
-        </Fragment>
+        </>
     )
 }
 

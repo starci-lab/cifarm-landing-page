@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { dinosaur, miSans } from "./fonts"
 import "./globals.css"
+import { WrappedLayout } from "./WrappedLayout"
 
 export const metadata: Metadata = {
     title: "Cifarm - Farm-to-earn on Telegram!",
@@ -47,7 +48,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${miSans.variable} ${dinosaur.variable} antialiased`}>
-                {children}
+                <WrappedLayout>{children}</WrappedLayout>
             </body>
         </html>
     )

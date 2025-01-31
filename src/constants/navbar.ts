@@ -9,3 +9,5 @@ export const navItems: Array<INavItem> = [
     { text: "Gameplay", href: "#gameplay" },
     { text: "Roadmap", href: "#roadmap" },
 ]
+
+export const sectionIds = navItems.map((item) => item.href.slice(1))
