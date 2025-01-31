@@ -1,6 +1,6 @@
-import Image from "next/image";
-import { FC } from "react";
-import { twMerge } from "tailwind-merge";
+import Image from "next/image"
+import { FC } from "react"
+import { twMerge } from "tailwind-merge"
 
 export const enum TitleVariant {
     Purple = "Purple",
@@ -21,7 +21,7 @@ export const RibbonImageVariants = {
         src: "blue.png",
         text: "text-stroke-blue",
     },
-};
+}
 
 interface TitleProps {
     variant?: TitleVariant;
@@ -33,7 +33,7 @@ const sizeClasses = {
     sm: "w-[250px] md:w-[350px] h-[60px] md:h-[80px] text-lg md:text-xl",
     md: "w-[300px] md:w-[400px] h-[80px] md:h-[100px] text-xl md:text-2xl",
     lg: "w-[350px] md:w-[450px] h-[100px] md:h-[130px] text-2xl md:text-3xl lg:text-4xl",
-};
+}
 
 export const Title: FC<TitleProps> = ({
     variant = TitleVariant.Purple,
@@ -64,5 +64,5 @@ export const Title: FC<TitleProps> = ({
                 </span>
             </div>
         </div>
-    );
-};
+    )
+}
