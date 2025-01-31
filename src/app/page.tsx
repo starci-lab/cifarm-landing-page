@@ -9,7 +9,7 @@ import { ScrollProgressBar } from "@/components"
 const Page: FC = () => {
     return (
         <Fragment>
-             <ScrollProgressBar />
+            <ScrollProgressBar />
             <header className="w-full relative">
                 <Navbar />
                 

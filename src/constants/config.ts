@@ -1,0 +1,1 @@
+export const GAME_URL = "https://web.telegram.org/k/#@cifarm_bot"
