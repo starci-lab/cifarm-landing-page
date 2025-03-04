@@ -29,12 +29,8 @@ const Page: FC = () => {
                             alt="Hero background"
                             className="object-cover w-full h-full object-bottom z-40-"
                         />
-                    
-                        {/* Gradient tối dần từ trên xuống */}
-                        {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/10 to-transparent" /> */}
-
                         <div
-                            className="absolute inset-0 bg-gradient-to-b from-yellow from-[0%] to-[10%] to-transparent"
+                            className="absolute inset-0 bg-gradient-to-b from-[#E1F4FD] from-[0%] to-[10%] to-transparent"
                         />
 
                         <div
