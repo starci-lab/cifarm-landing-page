@@ -23,7 +23,7 @@ export const Background: FC = () => {
 
             {/* Overlay với gradient */}
             <div
-                className="absolute inset-0 bg-gradient-to-t from-yellow from-[0%] to-[10%] to-transparent"
+                className="absolute inset-0 bg-gradient-to-t from-yellow from-[0%] to-[15%] to-transparent"
             />
             <div
                 className="absolute inset-0 bg-gradient-to-b from-yellow/30 from-[0%] to-[10%] to-transparent"

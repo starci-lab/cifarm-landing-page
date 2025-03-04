@@ -4,7 +4,7 @@ import { RoadmapList } from "./List"
 
 export const Roadmap: FC = () => {
     return (
-        <section id="roadmap" className="bg-yellow relative w-full flex flex-col items-center justify-center pt-32">
+        <section id="roadmap" className="bg-yellow relative w-full flex flex-col items-center justify-center pt-32  pb-20">
             <Title variant={TitleVariant.Orange} text="Roadmap" />
 
             <div className="relative flex flex-col items-center justify-center">
